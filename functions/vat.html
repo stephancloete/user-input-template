@@ -17,7 +17,7 @@
         </h1>
 
         <div id="app">
-            View the answer in the console
+            View the answer in the pop up.
         </div>
 
         <!-- Start of Script -->
@@ -27,13 +27,13 @@
             const vat = 14;
 
             // Get user input and save to variable
-                // code here..
+            let userInput = prompt("Type VAT ex amount here: ");
 
             // Perform calculation here
-            let result;// save result of calculation to answer variable.
+            let result = userInput * vat/100;
 
             // log VAT out to consol, DOM, or alert
-            console.log("The VAT of entered amount is " + result);
+            alert("The VAT of entered amount is " + result);
 
         </script>
         <!-- End of Script -->
